@@ -54,3 +54,8 @@ ul {
     border-radius: 50%;
     object-fit: cover; /* Ensures the image covers the entire circle */
 }
+
+.nimage {
+    display: flex; /* Use flexbox to arrange items horizontally */
+    align-items: center; /* Vertically align items to the center */
+}
