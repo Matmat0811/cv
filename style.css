@@ -2,8 +2,9 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     background-color: #f7f7f7;
+    color: #333;
 }
 
 /* Style the container div */
@@ -21,6 +22,10 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    background-color: #0078D4;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
 }
 
 /* Style the profile image */
@@ -29,17 +34,18 @@ body {
     height: 150px;
     border-radius: 50%;
     margin-right: 20px;
-    border: 4px solid #0078D4;
+    border: 4px solid #fff;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Style the name and title */
 .name {
-    color: #333;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .title {
-    color: #555;
+    color: #ccc;
 }
 
 /* Style the headings */
@@ -97,18 +103,39 @@ ul {
     font-weight: bold;
 }
 
-/* Add a gradient background to the header */
-.header {
-    background: linear-gradient(to right, #0078D4, #0056b3);
-    color: white;
-    padding: 20px;
-    border-radius: 8px 8px 0 0;
-}
-
-/* Style the section titles */
+/* Style section titles */
 .section h2 {
-    font-size: 1.5rem;
-    margin-top: 20px;
+    font-size: 1.8rem;
+    margin-top: 30px;
     border-bottom: 2px solid #0078D4;
     padding-bottom: 5px;
+}
+
+/* Style contact information */
+.section p {
+    margin: 5px 0;
+}
+
+/* Style education entries */
+.education-entry {
+    margin-bottom: 20px;
+}
+
+.education-title {
+    font-weight: bold;
+}
+
+/* Style experience entries */
+.experience-entry {
+    margin-bottom: 20px;
+}
+
+.experience-title {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.experience-date {
+    font-style: italic;
+    color: #777;
 }
