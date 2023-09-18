@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
 }
 
 /* Style the container div */
@@ -10,9 +11,16 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f4f4f4;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Style the header */
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 /* Style the profile image */
@@ -21,18 +29,23 @@ body {
     height: 150px;
     border-radius: 50%;
     margin-right: 20px;
-    border: 4px solid #fff;
+    border: 4px solid #0078D4;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the name and title */
+.name {
+    color: #333;
+}
+
+.title {
+    color: #555;
 }
 
 /* Style the headings */
 h1, h2 {
-    color: #333;
-}
-
-/* Style the contact information section */
-.section {
-    margin-top: 20px;
+    color: #0078D4;
+    margin-bottom: 10px;
 }
 
 /* Style the links */
@@ -52,11 +65,6 @@ ul {
     padding-left: 0;
 }
 
-/* Add spacing between list items */
-ul li {
-    margin-bottom: 5px;
-}
-
 /* Style the section content */
 .section-content {
     border-left: 2px solid #0078D4;
@@ -73,17 +81,34 @@ ul li {
 }
 
 /* Style the skills section */
-.section-content ul.skills-list {
+.skills-list {
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
 }
 
-.section-content ul.skills-list li {
+.skills-list li {
     margin-right: 10px;
     padding: 5px 10px;
     background-color: #0078D4;
     color: #fff;
     border-radius: 5px;
     margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Add a gradient background to the header */
+.header {
+    background: linear-gradient(to right, #0078D4, #0056b3);
+    color: white;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Style the section titles */
+.section h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    border-bottom: 2px solid #0078D4;
+    padding-bottom: 5px;
 }
