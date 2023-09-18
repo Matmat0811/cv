@@ -7,6 +7,20 @@ body {
     color: #333;
 }
 
+/* Style the container div with the background image */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url('background.jpg'); /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
 /* Style the container div */
 .container {
     max-width: 800px;
